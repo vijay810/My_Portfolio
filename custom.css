@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+/* .w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+} */
+header h1{
+    color: whitesmoke;
+    font-size: 40px;
+    padding-left: 30px;
+}
+header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: darksalmon;
+}
+li{
+    padding-right:25px;
+    padding-left: 25px;
+    font-size: 25px;
+    text-indent: 20px;
+    direction: rtl;
+}
+div{
+    margin-left: 25px;
+}
+ marquee{
+    font-size: 40px;
+    padding-top: 15px;
+    color: rgb(57, 153, 197);
+}
