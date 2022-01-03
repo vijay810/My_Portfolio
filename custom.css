@@ -42,3 +42,33 @@ ul.nav li{
 .nav a:hover{
     color: darkslategray;
 }
+.jumbotron img{
+    width: 100%;
+    max-height: 33rem;
+    /* max-height: 23rem; */
+    margin-bottom: -4px;
+}
+.about-container{
+    padding: 1rem 1rem 2rem;
+    background: #d3d3dda0;
+    text-align: center;
+ }
+ .about-container h2{
+    color: darkslategray;
+}
+ .about-content{
+    align-items: center;
+    /* display: flex; */
+}
+.about-content img{
+    max-width: 80%;
+}
+.about-content p{
+    line-height: 1.5;
+}
+.w-50{
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+}
