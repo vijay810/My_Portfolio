@@ -10,16 +10,16 @@ a{
 .d-flex{
     display: flex;
 }
-/* .w-50{
+.w-50{
     width: 50%;
 }
 .text-center{
     text-align: center;
-} */
+}
 header h1{
     color: whitesmoke;
-    font-size: 40px;
-    padding-left: 30px;
+    font-size: 2rem;
+    /* padding-left: 30px; */
 }
 header{
     align-items: center;
@@ -44,25 +44,57 @@ ul.nav li{
 }
 .jumbotron img{
     width: 100%;
-    max-height: 33rem;
+    max-height: 45rem;
     /* max-height: 23rem; */
     margin-bottom: -4px;
 }
 .about-container{
     padding: 1rem 1rem 2rem;
     background: #d3d3dda0;
-    text-align: center;
+    /* text-align: center; */
  }
  .about-container h2{
     color: darkslategray;
 }
  .about-content{
     align-items: center;
-    /* display: flex; */
 }
 .about-content img{
-    max-width: 80%;
+    max-width: 100%;
+
 }
 .about-content p{
     line-height: 1.5;
+    
+}
+.projects-container{
+    padding: 1rem 1rem 3rem;
+    background: #c5c5e0;
+}
+.projects-container h2{
+    color: darkred;
+}
+.projects-content{
+    padding: left 2rem;
+}
+.projects-content ul{
+    list-style-type: square;
+}
+.projects-content a{
+    line-height: 1.75;
+    font-size: 1.25rem;
+    color: darkslategrey;
+}
+
+footer{
+    padding: 2rem;
+    background: lemonchiffon;
+}
+
+footer ul{
+    justify-content: center;
+}
+footer ul a {
+    color: dimgray;
+    padding-right: 1rem;
 }
