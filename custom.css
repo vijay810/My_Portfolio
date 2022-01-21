@@ -65,6 +65,9 @@ ul.nav li{
 }
 .about-content p{
     line-height: 1.5;
+    padding-left: 1rem;
+    text-indent: 3rem;
+    text-align: justify;
     
 }
 .projects-container{
